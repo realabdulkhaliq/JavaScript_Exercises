@@ -11,3 +11,8 @@ console.log("Sum is = "+(a+b));
 console.log("Diff is = "+(a-b));
 console.log("Divide is = "+(a/b));
 console.log("Product is = "+(a*b));
+
+console.log(5+3);
+console.log(10-2);
+console.log(4*2);
+console.log(16/2);

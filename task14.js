@@ -6,5 +6,5 @@ to each person, inviting them to dinner.
 
 let arr = ["Wasim", "Shahid", "Hassan"];
 for(var i=0; i<arr.length; i++){
-    console.log("Dear "+arr[i]+"! I would like to invite you at my Birthday.");
+    console.log("Dear "+arr[i]+"! I would like to invite you for a dinner.");
 }

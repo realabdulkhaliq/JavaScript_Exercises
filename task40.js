@@ -9,11 +9,23 @@ Make at least one new function call that includes the number of tracks on an alb
 */
 
 
-function make_album(name, title, tracks){
-    return album = {
-        artist : 'Ab',
-        title : 'Hum tum',
-    }
-}
+function make_album(artist_name, album_title) {
 
-console.log(make_album());
+    var obj = {
+        artist_name : artist_name,
+        album_title : album_title
+    }
+    return obj;
+}
+console.log(make_album('Atif', 'Tajdar e Haram'));
+
+function make_album1(artist_name, album_title, ...arguments) {
+
+    var obj1 = {
+        artist_name : artist_name,
+        album_title : album_title,
+        arguments : arguments
+    }
+    return obj1;
+}
+console.log(make_album1('Atif', 'Tajdar e Haram', 'Two Tracks'));

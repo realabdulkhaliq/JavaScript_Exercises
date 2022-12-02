@@ -18,6 +18,8 @@ function make_album(artist_name, album_title) {
     return obj;
 }
 console.log(make_album('Atif', 'Tajdar e Haram'));
+console.log(make_album('Junoon', 'Infiniti'));
+console.log(make_album('Junaid', 'Dil Dil Pakistan'));
 
 function make_album1(artist_name, album_title, ...arguments) {
 
@@ -29,3 +31,5 @@ function make_album1(artist_name, album_title, ...arguments) {
     return obj1;
 }
 console.log(make_album1('Atif', 'Tajdar e Haram', 'Two Tracks'));
+console.log(make_album1('Junoon', 'Infiniti', 'Two Tracks', 'Three Singers'));
+console.log(make_album1('Junaid', 'Dil Dil Pakistan', 'One Tracks', 'Four Singers', 'Beautiful Place'));

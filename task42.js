@@ -3,14 +3,14 @@ Great Magicians: Start with a copy of your program from Exercise 39. Write a fun
 */
 
 let magicianNames = ['Abdul', 'Atif', 'Ali', 'Awais'];
-var i=0;
-function make_great(greet){
-    return greet;
-}
-function show_magicians(){
-    for(i; i<magicianNames.length; i++){
-        console.log(make_great('Great') + " " +magicianNames[i]);
+
+function make_great(){
+    for(var j=0; j<magicianNames.length; j++){
+        magicianNames[j] = "Great " + magicianNames[j];
+        console.log(magicianNames[j]);
     }
 }
 
-show_magicians();
+make_great();
+
+console.log(magicianNames);
